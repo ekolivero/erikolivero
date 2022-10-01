@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/partytown': ^1.0.0
   '@astrojs/preact': ^1.1.1
   '@astrojs/tailwind': ^2.0.2
   astro: ^1.4.0
@@ -8,6 +9,7 @@ specifiers:
   tailwindcss: ^3.0.24
 
 dependencies:
+  '@astrojs/partytown': 1.0.0
   '@astrojs/preact': 1.1.1_preact@10.11.0
   '@astrojs/tailwind': 2.0.2_tailwindcss@3.1.8
   astro: 1.4.0
@@ -93,6 +95,13 @@ packages:
       micromark-util-types: 1.0.2
       uvu: 0.5.6
       vfile-message: 3.1.2
+    dev: false
+
+  /@astrojs/partytown/1.0.0:
+    resolution: {integrity: sha512-rco5tOtBmmZ7mpoHFyARrMb5yKVJPwLghN9lFvl+R867E+0xRp6ZzP5o7pMySgZCUq093qzd1bkAsVS2I/8gpg==}
+    dependencies:
+      '@builder.io/partytown': 0.4.5
+      mrmime: 1.0.1
     dev: false
 
   /@astrojs/preact/1.1.1_preact@10.11.0:
@@ -378,6 +387,11 @@ packages:
       '@babel/helper-string-parser': 7.18.10
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@builder.io/partytown/0.4.5:
+    resolution: {integrity: sha512-HcHlmMYSpOxfJ0lFVxgZrvgIjz1Q8knlGuWkBpvjIp68j+xVWg969+sn7BCfyKhcGaYlnVOY/CEBHapQBcl0jw==}
+    hasBin: true
     dev: false
 
   /@emmetio/abbreviation/2.2.3:
