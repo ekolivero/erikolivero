@@ -1,19 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import * as style from '../styles/index.css'
 ---
 
 <Layout title="Erik Olivero - Tech Enthusiast">
-	<main class="flex justify-center items-start h-screen flex-col space-y-8">
-		<h1 class="xl:text-7xl lg:text-6xl text-5xl font-extrabold text-left text-zinc-600 align-baseline">Hi, I'm Erik 👋</h1>
-		<h3 class="xl:text-4xl font-bold lg:text-3xl text-2xl text-left text-zinc-800">Passionate and skilled Software Engineer from 🇮🇹</h3>
+	<main class={style.container}>
+		<h1> Hi, I'm Erik.</h1>
+		<h3> Passionate and skilled software engineer from Italy 🇮🇹</h3>
 	</main>
 </Layout>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-</style>
